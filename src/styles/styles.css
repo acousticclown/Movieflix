@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3e1f57;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar h1, .navbar h4 {
+  color: whitesmoke;
+}
+
+.navbar h4 span {
+  margin: 1rem;
+}
+
+.add-movie-form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #02485a;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.add-movie-form .add-name, .add-movie-form .add-price {
+  border: 0.1rem solid #02485a;
+  height: 2rem;
+  margin: 1rem;
+}
+
+.add-movie-form .add-movie-button {
+  background-color: #003b4d;
+  border: .1rem solid white;
+  border-radius: .5rem;
+  color: white;
+  height: 2.5rem;
+  margin: 1rem;
+  width: 6rem;
+}
+
+.add-movie-form .add-movie-button:hover {
+  background-color: #005a75;
+}
+
+@media only screen and (max-width: 500px) {
+  .add-movie-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.movie-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.movie-card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #630070;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 10rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+  width: 15rem;
+}
+
+.movie-card h3, .movie-card p {
+  margin: .5rem;
+}
+/*# sourceMappingURL=styles.css.map */
