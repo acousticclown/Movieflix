@@ -29,7 +29,7 @@ const Addmovie = () => {
           className="add-name"
           required="true"
           type="text"
-          name="name"
+          name="moviename"
           placeholder="Movie Name"
           value={name}
           onChange={updateName}
